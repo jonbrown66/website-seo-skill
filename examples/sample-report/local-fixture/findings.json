@@ -1,0 +1,72 @@
+[
+  {
+    "affected_urls": [
+      "https://example.com/"
+    ],
+    "category": "content_quality",
+    "confidence": 0.85,
+    "detected_at": "2026-06-15T12:02:29+00:00",
+    "dimension": "content_answerability",
+    "effort": 2,
+    "evidence": {
+      "expected": "Enough content to satisfy the page intent",
+      "observed": 28
+    },
+    "evidence_type": "inferred",
+    "fix_prompt": "Fix finding CONTENT-DEPTH-001 for https://example.com/. Observed: 28. Expected: Enough content to satisfy the page intent. Implement: Expand the page with useful, specific content and direct answers.. Add validation matching: Enough content to satisfy the page intent.",
+    "id": "CONTENT-DEPTH-001",
+    "impact": 3,
+    "implementation": {
+      "files": [],
+      "framework": "",
+      "steps": []
+    },
+    "priority_score": 2.55,
+    "reach": 1.0,
+    "recommendation": "Expand the page with useful, specific content and direct answers.",
+    "rule_version": "1.0.0",
+    "severity": "medium",
+    "source": "internal_crawler",
+    "status": "warning",
+    "title": "Page has very little indexable text",
+    "validation": {
+      "expected_result": "Enough content to satisfy the page intent",
+      "method": "Re-run rule CONTENT-DEPTH-001"
+    }
+  },
+  {
+    "affected_urls": [
+      "https://example.com/"
+    ],
+    "category": "technical_seo",
+    "confidence": 1.0,
+    "detected_at": "2026-06-15T12:02:29+00:00",
+    "dimension": "seo_foundation",
+    "effort": 1,
+    "evidence": {
+      "expected": "HTTP 200-399",
+      "observed": 200
+    },
+    "evidence_type": "verified",
+    "fix_prompt": "Fix finding SEO-STATUS-OK for https://example.com/. Observed: 200. Expected: HTTP 200-399. Implement: No action required.. Add validation matching: HTTP 200-399.",
+    "id": "SEO-STATUS-OK",
+    "impact": 0,
+    "implementation": {
+      "files": [],
+      "framework": "",
+      "steps": []
+    },
+    "priority_score": 0.0,
+    "reach": 1.0,
+    "recommendation": "No action required.",
+    "rule_version": "1.0.0",
+    "severity": "informational",
+    "source": "internal_crawler",
+    "status": "passed",
+    "title": "Page returns a successful status",
+    "validation": {
+      "expected_result": "HTTP 200-399",
+      "method": "Re-run rule SEO-STATUS-OK"
+    }
+  }
+]

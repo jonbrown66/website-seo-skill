@@ -1,0 +1,2 @@
+from search_visibility_auditor.scoring import score_findings
+

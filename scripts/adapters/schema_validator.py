@@ -1,0 +1,2 @@
+from search_visibility_auditor.crawler import validate_json_ld
+

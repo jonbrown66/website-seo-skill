@@ -1,0 +1,2 @@
+from search_visibility_auditor.rules import deduplicate_findings
+

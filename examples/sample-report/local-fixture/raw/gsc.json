@@ -1,0 +1,8 @@
+{
+  "adapter": "gsc",
+  "findings": [],
+  "impact": "Search Performance was not assessed",
+  "raw": {},
+  "reason": "credentials_missing",
+  "status": "unavailable"
+}

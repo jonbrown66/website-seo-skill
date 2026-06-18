@@ -1,0 +1,8 @@
+domain: https://example.com
+crawl:
+  max_pages: 10
+  render_javascript: false
+  obey_robots: true
+integrations:
+  pagespeed: optional
+

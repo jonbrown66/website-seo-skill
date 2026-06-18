@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["domain"],
+  "properties": {
+    "domain": { "type": "string", "format": "uri" },
+    "brand": { "type": "object" },
+    "business": { "type": "object" },
+    "target": { "type": "object" },
+    "queries": { "type": "array" },
+    "competitors": { "type": "array", "items": { "type": "string" } },
+    "crawl": {
+      "type": "object",
+      "properties": {
+        "max_pages": { "type": "integer", "minimum": 1, "maximum": 10000 },
+        "render_javascript": { "type": "boolean" },
+        "obey_robots": { "type": "boolean" }
+      }
+    },
+    "integrations": { "type": "object" }
+  }
+}
+

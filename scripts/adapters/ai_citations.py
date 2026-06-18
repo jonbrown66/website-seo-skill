@@ -1,0 +1,2 @@
+from search_visibility_auditor.adapters.ai_citations import AICitationsAdapter
+

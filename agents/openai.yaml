@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website SEO Audit"
+  short_description: "Evidence-based public, source, and AI search readiness audits"
+  default_prompt: "Use $website-seo-audit to classify the input source, resolve the target, and produce an evidence-bounded website SEO readiness or visibility report."

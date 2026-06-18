@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Website SEO Audit</title>
+  <!--
+    WeasyPrint reference template.
+    The audit report HTML is self-contained (inline CSS + SVG).
+    To render with weasyprint:  HTML(string=html_content).write_pdf("audit.pdf")
+    @page rules below are applied automatically by weasyprint when present in the HTML.
+  -->
+  <style>
+    @page {
+      size: A4;
+      margin: 24mm 20mm 28mm 20mm;
+      @bottom-center {
+        content: "Website SEO Audit · 第 " counter(page) " 页";
+        font-size: 9px;
+        color: #94a3b8;
+        font-family: Inter, "Segoe UI", sans-serif;
+      }
+      @top-right {
+        content: string(audit-id);
+        font-size: 9px;
+        color: #94a3b8;
+        font-family: Inter, "Segoe UI", sans-serif;
+      }
+    }
+    @page cover {
+      @bottom-center { content: none; }
+      @top-right { content: none; }
+    }
+    body { margin: 0; }
+  </style>
+</head>
+<body>
+  <!-- Rendered HTML content is injected here by weasyprint -->
+</body>
+</html>

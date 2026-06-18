@@ -1,0 +1,4 @@
+business:
+  type: publisher
+  primary_conversion: subscription
+

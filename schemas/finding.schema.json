@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id", "rule_version", "source", "category", "dimension", "title", "status", "severity", "confidence", "evidence_type", "affected_urls", "evidence", "impact", "effort", "reach", "recommendation", "validation", "detected_at"],
+  "properties": {
+    "id": { "type": "string" },
+    "rule_version": { "type": "string" },
+    "source": { "type": "string" },
+    "category": { "type": "string" },
+    "dimension": { "type": "string" },
+    "title": { "type": "string" },
+    "status": { "enum": ["passed", "failed", "warning", "not_assessed", "error"] },
+    "severity": { "enum": ["critical", "high", "medium", "low", "informational"] },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "evidence_type": { "enum": ["verified", "inferred", "unknown"] },
+    "affected_urls": { "type": "array", "items": { "type": "string" } },
+    "evidence": { "type": "object" },
+    "impact": { "type": "number" },
+    "effort": { "type": "number", "exclusiveMinimum": 0 },
+    "reach": { "type": "number", "minimum": 0 },
+    "recommendation": { "type": "string" },
+    "implementation": { "type": "object" },
+    "validation": { "type": "object" },
+    "fix_prompt": { "type": "string" },
+    "detected_at": { "type": "string" }
+  }
+}
+

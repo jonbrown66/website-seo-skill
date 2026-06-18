@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["audit_id", "url", "mode", "scores", "findings", "adapters"],
+  "properties": {
+    "audit_id": { "type": "string" },
+    "url": { "type": "string" },
+    "mode": { "enum": ["quick", "standard", "verified", "full"] },
+    "scores": { "$ref": "score.schema.json" },
+    "findings": { "type": "array" },
+    "adapters": { "type": "array" }
+  }
+}
+

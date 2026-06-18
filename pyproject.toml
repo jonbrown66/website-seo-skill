@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "website-seo-audit"
+version = "0.1.0"
+description = "Evidence-based website SEO, AEO, GEO, and AI search readiness auditor skill."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Website SEO Audit Contributors" }]
+dependencies = []
+keywords = ["seo", "technical-seo", "aeo", "geo", "ai-search", "audit", "codex-skill"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://github.com/jonbrown66/website-seo-skill"
+Repository = "https://github.com/jonbrown66/website-seo-skill"
+Issues = "https://github.com/jonbrown66/website-seo-skill/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "jsonschema>=4"]
+pdf = ["weasyprint>=62"]
+
+[project.scripts]
+website-seo-audit = "search_visibility_auditor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["search_visibility_auditor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

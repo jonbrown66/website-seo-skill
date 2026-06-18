@@ -1,0 +1,4 @@
+business:
+  type: ecommerce
+  primary_conversion: purchase
+

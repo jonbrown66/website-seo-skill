@@ -1,0 +1,17 @@
+rubric_version: "1.0.0"
+crawl:
+  max_pages: 50
+  render_javascript: false
+  obey_robots: true
+security:
+  timeout: 10
+  max_response_bytes: 2000000
+  concurrency: 4
+dimensions:
+  seo_foundation: 25
+  content_answerability: 20
+  authority_entity: 15
+  search_performance: 15
+  ai_visibility: 15
+  ux_business_outcome: 10
+

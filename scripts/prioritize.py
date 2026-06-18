@@ -1,0 +1,2 @@
+from search_visibility_auditor.scoring import add_priority_scores
+

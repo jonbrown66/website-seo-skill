@@ -1,0 +1,10 @@
+body { margin: 0; font-family: Arial, sans-serif; color: #17202a; background: #f7f8fa; }
+main { max-width: 1180px; margin: 0 auto; padding: 32px; background: white; }
+.cover { border-bottom: 3px solid #1f6feb; margin-bottom: 24px; }
+h1, h2 { color: #0f172a; }
+.score { font-size: 64px; font-weight: 700; color: #1f6feb; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { border: 1px solid #d8dee4; padding: 8px; vertical-align: top; }
+th { background: #eef2f7; text-align: left; }
+code { white-space: pre-wrap; word-break: break-word; }
+

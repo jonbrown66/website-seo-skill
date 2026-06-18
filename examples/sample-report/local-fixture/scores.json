@@ -1,0 +1,53 @@
+{
+  "confidence": "medium",
+  "data_coverage": 45.0,
+  "dimensions": {
+    "ai_visibility": {
+      "assessed": false,
+      "findings": 0,
+      "score": null,
+      "unknown": 0,
+      "weight": 15
+    },
+    "authority_entity": {
+      "assessed": false,
+      "findings": 0,
+      "score": null,
+      "unknown": 0,
+      "weight": 15
+    },
+    "content_answerability": {
+      "assessed": true,
+      "findings": 1,
+      "score": 96.94,
+      "unknown": 0,
+      "weight": 20
+    },
+    "search_performance": {
+      "assessed": false,
+      "findings": 0,
+      "score": null,
+      "unknown": 0,
+      "weight": 15
+    },
+    "seo_foundation": {
+      "assessed": true,
+      "findings": 1,
+      "score": 100,
+      "unknown": 0,
+      "weight": 25
+    },
+    "ux_business_outcome": {
+      "assessed": false,
+      "findings": 0,
+      "score": null,
+      "unknown": 0,
+      "weight": 10
+    }
+  },
+  "inferred_evidence_ratio": 0.5,
+  "overall_score": 98.64,
+  "rubric_version": "1.0.0",
+  "unknown_ratio": 0.0,
+  "verified_evidence_ratio": 0.5
+}

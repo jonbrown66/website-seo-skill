@@ -1,0 +1,4 @@
+business:
+  type: saas
+  primary_conversion: signup
+

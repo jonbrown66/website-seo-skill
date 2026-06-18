@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["overall_score", "data_coverage", "confidence", "verified_evidence_ratio", "inferred_evidence_ratio", "unknown_ratio", "rubric_version", "dimensions"],
+  "properties": {
+    "overall_score": { "type": ["number", "null"] },
+    "data_coverage": { "type": "number", "minimum": 0, "maximum": 100 },
+    "confidence": { "enum": ["low", "medium", "high"] },
+    "verified_evidence_ratio": { "type": "number" },
+    "inferred_evidence_ratio": { "type": "number" },
+    "unknown_ratio": { "type": "number" },
+    "rubric_version": { "type": "string" },
+    "dimensions": { "type": "object" }
+  }
+}
+

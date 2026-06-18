@@ -1,0 +1,43 @@
+domain: https://example.com
+brand:
+  name: Example
+  aliases:
+    - Example AI
+  description: AI-powered remote job matching platform
+business:
+  type: saas
+  primary_conversion: signup
+  secondary_conversions:
+    - resume_upload
+    - subscription
+target:
+  countries:
+    - US
+  languages:
+    - en
+  users:
+    - remote job seekers
+    - AI engineers
+queries:
+  - query: best remote job boards for AI engineers
+    intent: commercial
+    country: US
+    language: en
+    priority: high
+competitors:
+  - remoteok.com
+  - weworkremotely.com
+crawl:
+  max_pages: 200
+  render_javascript: true
+  obey_robots: true
+integrations:
+  gsc: optional
+  ga4: optional
+  pagespeed: optional
+  searchstack: optional
+  geo_optimizer: optional
+  seomator: optional
+  dataforseo: optional
+  ai_providers: optional
+

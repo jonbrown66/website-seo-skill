@@ -1,0 +1,13 @@
+{
+  "adapter_status": {
+    "gsc": "unavailable",
+    "internal_crawler": "ok"
+  },
+  "audit_id": "local-fixture",
+  "confidence": "medium",
+  "critical_findings": 0,
+  "data_coverage": 45.0,
+  "mode": "quick",
+  "overall_score": 98.64,
+  "url": "https://example.com/"
+}

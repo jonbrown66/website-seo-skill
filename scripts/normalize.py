@@ -1,0 +1,2 @@
+from search_visibility_auditor.utils import normalize_url
+

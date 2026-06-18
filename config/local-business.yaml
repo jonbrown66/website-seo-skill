@@ -1,0 +1,4 @@
+business:
+  type: local-business
+  primary_conversion: call_or_booking
+
