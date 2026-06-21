@@ -4,6 +4,10 @@ Production-oriented Agent Skill and Python CLI for evidence-based SEO, technical
 
 It is designed for agent workflows that need structured, evidence-bounded reports instead of loose website critique. The tool crawls public/source signals, normalizes Findings, scores only assessed evidence, and generates JSON, Markdown, and HTML reports.
 
+## Showcase
+
+<video src="website-seo-audit-promo/website-seo-audit-promo.mp4" width="100%" controls autoplay loop muted></video>
+
 ## Installation
 
 ### Option 1: Install as an Agent Skill
