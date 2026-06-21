@@ -6,7 +6,10 @@ It is designed for agent workflows that need structured, evidence-bounded report
 
 ## Showcase
 
-<video src="website-seo-audit-promo/website-seo-audit-promo.mp4" width="100%" controls autoplay loop muted></video>
+<video width="100%" height="auto" controls autoplay loop muted>
+  <source src="https://raw.githubusercontent.com/jonbrown66/website-seo-skill/main/website-seo-audit-promo/website-seo-audit-promo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Installation
 
